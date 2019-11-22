@@ -1,6 +1,6 @@
 {
     "name": "matchify",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Pattern matching for TypeScript",
     "main": "dist/index.js",
     "scripts": {
