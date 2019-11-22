@@ -1,27 +1,31 @@
 {
-  "name": "matchify",
-  "version": "1.0.0",
-  "description": "Pattern matching for TypeScript",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/BrokenLamp/matchify.git"
-  },
-  "keywords": [
-    "pattern",
-    "matching",
-    "typescript",
-    "ts",
-    "match",
-    "matchify"
-  ],
-  "author": "Broken Lamp LLC",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/BrokenLamp/matchify/issues"
-  },
-  "homepage": "https://github.com/BrokenLamp/matchify#readme"
+    "name": "matchify",
+    "version": "1.0.0",
+    "description": "Pattern matching for TypeScript",
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/BrokenLamp/matchify.git"
+    },
+    "keywords": [
+        "pattern",
+        "matching",
+        "typescript",
+        "ts",
+        "match",
+        "matchify"
+    ],
+    "author": "Broken Lamp LLC",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/BrokenLamp/matchify/issues"
+    },
+    "homepage": "https://github.com/BrokenLamp/matchify#readme",
+    "devDependencies": {
+        "typescript": "^3.7.2"
+    }
 }
